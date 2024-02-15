@@ -238,15 +238,16 @@ main {
 
 .holiday-section h3 {
     color: rgba(7, 2, 17, 0.60);
-padding: 0 150px;
+    padding: 0 150px;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
 }
+
 /* fifty percent section style */
-.fifty-percent{
-    
+.fifty-percent {
+
     margin-top: 80px;
     background-image: url(../resources/Rectangle\ 1.png), url(../resources/Rectangle\ 2.png);
     background-repeat: no-repeat;
@@ -256,7 +257,42 @@ padding: 0 150px;
     display: flex;
     justify-content: space-between;
 }
-.right-img{
-position: relative;
-left: -280px;
+
+.right-img {
+    position: relative;
+    left: -280px;
+}
+
+/* Portfolio section style */
+.portfolio-section {
+    margin-top: 80px;
+}
+
+.portfolio-section h3 {
+    color: #F00;
+    font-weight: 500;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.portfolio-section h2 {
+    color: #070211;
+    font-weight: 900;
+    font-family: Merriweather;
+    font-size: 48px;
+}
+
+.portfolio-section p {
+    color: rgba(7, 2, 17, 0.60);
+    width: 950px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.portfolio-img-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
