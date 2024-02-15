@@ -245,3 +245,18 @@ padding: 0 150px;
     font-weight: 500;
 }
 /* fifty percent section style */
+.fifty-percent{
+    
+    margin-top: 80px;
+    background-image: url(../resources/Rectangle\ 1.png), url(../resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    height: 660px;
+    object-fit: cover;
+    background-position: top right, bottom right;
+    display: flex;
+    justify-content: space-between;
+}
+.right-img{
+position: relative;
+left: -280px;
+}
