@@ -296,3 +296,41 @@ main {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
+
+/* subscriber section style added */
+.subscriber {
+    margin: 80px 0px;
+    text-align: center;
+}
+
+.subscriber h2 {
+    color: #070211;
+    font-weight: 900;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+}
+
+.subscriber p {
+   padding: 0 270px;
+    color: rgba(7, 2, 17, 0.60);
+    font-weight: 400;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+}
+.subscriber .email{
+    background-color: #e0e0e0;
+    border: none;
+    color: #000000;
+    padding: 12px 50px;
+    border-radius: 5px;
+
+}
+.subscriber .submit{
+background-color: #F00;
+padding: 12px 20px;
+color: #FFF;
+border: none;
+border-radius: 5px;
+}
