@@ -1,0 +1,33 @@
+main {
+    max-width: 1400px;
+    margin: 20px auto;
+}
+
+/* banner section styles */
+.banner-section {
+
+    background: linear-gradient(0deg, rgba(8, 8, 8, 0.3), rgba(53, 43, 49, 0.3)), url(../resources/Banner\ Image.png);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: 600px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-section {
+    text-align: center;
+    color: #f7f7f7;
+    font-family: Merriweather;
+}
+
+.banner-section p {
+    padding-top: 170px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-section h2 {
+    font-size: 72px;
+    font-weight: 900;
+}
