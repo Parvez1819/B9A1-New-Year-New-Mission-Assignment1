@@ -6,7 +6,7 @@ main {
 
 /* banner section styles */
 .banner-contaioner {
-
+    border-radius: 15px;
     background: linear-gradient(0deg, rgba(8, 8, 8, 0.3), rgba(53, 43, 49, 0.3)), url(../resources/Banner\ Image.png);
     background-size: cover;
     width: 100%;
@@ -32,26 +32,126 @@ main {
     font-size: 72px;
     font-weight: 900;
 }
-.discount-container{
+
+/* discount section style */
+.discount-container {
     margin-top: 100px;
     text-align: center;
 }
-.discount-container h2{
+
+.discount-container h2 {
     color: #F00;
     font-size: 88px;
     font-weight: 700;
 
 }
+
 .discount-container p {
     color: crimson;
     font-size: 24px;
     font-weight: 500;
 }
-.discount-container >.catagorie{
+
+.discount-container>.catagorie {
     color: #070211;
     font-size: 48px;
     font-weight: 700;
 }
-.discount-container img{
+
+.discount-container img {
     margin-top: 40px;
+}
+
+/* welcome section style */
+.welcome-container {
+    margin-top: 80px;
+    border-radius: 15px;
+    background: linear-gradient(0deg, rgba(8, 8, 8, 0.692), rgba(53, 43, 49, 0.3)), url(../resources/Vectorrr.png);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: 600px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome-content {
+    padding-left: 100px;
+}
+
+.welcome-content h2 {
+    color: #FFF;
+    font-weight: 900;
+    font-family: Merriweather;
+    font-size: 64px;
+}
+
+.welcome-content p {
+    color: rgba(255, 255, 255, 0.80);
+    font-weight: 400;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.welcome-content button {
+    background: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFF;
+}
+
+.welcome-content button:hover {
+    color: #F00;
+}
+
+.welcome-img {
+    padding-right: 120px;
+}
+
+/* venue section style */
+.venue-container {
+    margin-top: 80px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    height: 500px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.venue-content {
+    padding-top: 20px;
+}
+
+.venue-content P {
+    padding-top: 20px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+.venue-content P span{
+    color: #F00;
+}
+.venue-content button {
+    color: #FFF;
+    max-width: 150px;
+    margin: 30px 625px 0;
+    text-align: center;
+    font-family: Inter;
+    background: #F00;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 18px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.venue-content button:hover {
+    background: darkred;
 }
