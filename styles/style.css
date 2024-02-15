@@ -1,10 +1,11 @@
 main {
     max-width: 1400px;
     margin: 20px auto;
+    font-family: Inter;
 }
 
 /* banner section styles */
-.banner-section {
+.banner-contaioner {
 
     background: linear-gradient(0deg, rgba(8, 8, 8, 0.3), rgba(53, 43, 49, 0.3)), url(../resources/Banner\ Image.png);
     background-size: cover;
@@ -15,19 +16,42 @@ main {
     background-repeat: no-repeat;
 }
 
-.banner-section {
+.banner-contaioner {
     text-align: center;
     color: #f7f7f7;
     font-family: Merriweather;
 }
 
-.banner-section p {
+.banner-contaioner p {
     padding-top: 170px;
     font-size: 32px;
     font-weight: 400;
 }
 
-.banner-section h2 {
+.banner-contaioner h2 {
     font-size: 72px;
     font-weight: 900;
+}
+.discount-container{
+    margin-top: 100px;
+    text-align: center;
+}
+.discount-container h2{
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+
+}
+.discount-container p {
+    color: crimson;
+    font-size: 24px;
+    font-weight: 500;
+}
+.discount-container >.catagorie{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+.discount-container img{
+    margin-top: 40px;
 }
