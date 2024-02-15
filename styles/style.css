@@ -210,3 +210,38 @@ main {
     font-size: 48px;
     font-weight: 700;
 }
+
+/* holiday section style */
+.holiday-section {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.holiday-section p {
+    color: #070211;
+    font-weight: 500;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.holiday-section h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday-section h2 span {
+    color: #F00;
+}
+
+.holiday-section h3 {
+    color: rgba(7, 2, 17, 0.60);
+padding: 0 150px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* fifty percent section style */
