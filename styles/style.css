@@ -135,9 +135,11 @@ main {
     font-weight: 600;
     text-align: center;
 }
-.venue-content P span{
+
+.venue-content P span {
     color: #F00;
 }
+
 .venue-content button {
     color: #FFF;
     max-width: 150px;
@@ -154,4 +156,57 @@ main {
 
 .venue-content button:hover {
     background: darkred;
+}
+
+/* best offer section styles */
+
+.best-offer {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best-offer-pic {
+    /* padding: 0 80px; */
+    border: 20px solid #F00;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.best-offer-left-content {
+    padding-right: 60px;
+}
+
+.best-offer-left-content h2 {
+    color: #070211;
+    font-weight: 900;
+    font-family: Merriweather;
+    font-size: 48px;
+}
+
+.best-offer-left-content-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.best-offer-left-content-description,
+.best-offer-right-content p {
+    color: rgba(7, 2, 17, 0.60);
+    font-weight: 400;
+    font-family: Inter;
+    font-size: 20px;
+}
+
+.best-offer-right-content {
+    padding-left: 60px;
+}
+
+.best-offer-right-content h2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
 }
